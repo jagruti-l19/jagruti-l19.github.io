@@ -79,6 +79,10 @@ header .navbar {
   margin-top: 25px;
 }
 
+.ourstory{
+  background-color: #b6d7a8;
+}
+
 ul {
   list-style-type: none;
 }
@@ -515,20 +519,31 @@ ul {
     padding-left: 0px;
   }
 }i
-
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 50px;
-  position: relative;
-  margin: auto;
+* {
+  box-sizing: border-box;
 }
-
-/* The dots/bullets/indicators */
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+.slideshow-container {
+  max-width: 800px; /* Set the desired maximum width */
+  position: relative;
+  margin: 20px auto;
+}
+.mySlides {
+  display: none;
+}
+.mySlides img {
+  width: 100%; /* Images will resize to fit */
+  height: auto; /* Keep aspect ratio */
+}
 .dot {
   height: 15px;
   width: 15px;
@@ -538,23 +553,17 @@ img {vertical-align: middle;}
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
 .active {
   background-color: #717171;
 }
-
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
-
-/* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
