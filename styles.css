@@ -86,14 +86,12 @@ ul {
 .container{
   padding: 2rem;
   position: relative;
-  z-index: 1;
 }
 
 .slider-wrapper {
-  position:relative;
+  position: relative;
   max-width: 48rem;
   margin: 0 auto;
-  position: relative;
 }
 
 .slider{
@@ -105,6 +103,7 @@ ul {
   box-shadow: 0 1.5rem 3 rem -0.75 hsla(0,0%,0%,0.25);
   border-radius: 0.5rem;
   position: relative;
+  overflow: hidden;
 }
 
 .slider img{
@@ -273,27 +272,7 @@ ul {
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-top-color: rgb(229, 229, 229);
-  border-right-color: rgb(229, 229, 229);
-  border-bottom-color: rgb(229, 229, 229);
-  border-left-color: rgb(229, 229, 229);
-  border-image-source: initial;
-  border-image-slice: initial;
-  border-image-width: initial;
-  border-image-outset: initial;
-  border-image-repeat: initial;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-style: none;
   margin-top: 0px;
   margin-right: 10px;
   margin-bottom: 0px;
@@ -332,28 +311,9 @@ ul {
   color: white;
   background-color: rgb(244, 152, 146);
   box-shadow: rgba(244, 152, 146, 0.25) 0px 10px 20px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-radius: 10px;
   cursor: pointer;
-  border-top-width: 0px;
-  border-right-width: 0px;
-  border-bottom-width: 0px;
-  border-left-width: 0px;
-  border-top-style: initial;
-  border-right-style: initial;
-  border-bottom-style: initial;
-  border-left-style: initial;
-  border-top-color: initial;
-  border-right-color: initial;
-  border-bottom-color: initial;
-  border-left-color: initial;
-  border-image-source: initial;
-  border-image-slice: initial;
-  border-image-width: initial;
-  border-image-outset: initial;
-  border-image-repeat: initial;
+  border-style:none;
   padding-top: 17px;
   padding-right: 40px;
   padding-bottom: 17px;
@@ -361,13 +321,6 @@ ul {
 }
 
 .explore:hover {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
   background-color: rgb(244, 182, 176);
 }
 
