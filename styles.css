@@ -147,8 +147,6 @@ ul {
   font-size: 10px;
 }
 
-
-
 * {
   font-family: Nunito, sans-serif;
 }
@@ -573,10 +571,10 @@ ul {
   margin: 0;
   box-sizing: border-box;
  }
- .body{
+ .picturegall{
   background-color: aliceblue;
  }
- .picturegall{
+ .container2{
   width: 85vmin;
   position: absolute;
   transform: translate(-50%,-50%);
