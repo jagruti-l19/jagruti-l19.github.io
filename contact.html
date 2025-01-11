@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harvest Bloom</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harvest Bloom</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
     <section class="top">
@@ -49,8 +49,8 @@
         <p>If you have any questions regarding the resturant or reservations, please call, text, or email with the information provided below</p>
         <p>Phone: 404-678-9081 Email: harvestbloom@gmail.com</p>
     </section>
-<div class="container" id="contact">
-  <section class="reservations">
+<section class="reservations">
+  <div class="container" id="contact">
     <h1>Reservations</h1>
     <p></p>
     <form action="/action_page.php" target="_blank">
@@ -58,20 +58,19 @@
         <input class="input-field" type="text" placeholder="Name" required name="Name">
       </p>
       <p>
-        <input class="input-field" type="number" placeholder="How many people" required name="People">
+        <input class="input-field" type="number" placeholder="Number of people" required name="People">
       </p>
       <p>
         <input class="input-field" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00">
       </p>
       <p>
-        <input class="input-field" type="text" placeholder="Message / Special requirements" required name="Message">
+        <input class="input-field" type="text" placeholder="Comments" required name="Message">
       </p>
       <p>
-        <button class="submit-button" type="submit">Submit Reservation</button>
+        <button class="submit-button">Submit Reservation</button>
       </p>
     </form>
-  </section>
-</div>
+  </div>
 </section>
 </body>
 </html>
