@@ -147,6 +147,8 @@ ul {
   font-size: 10px;
 }
 
+
+
 * {
   font-family: Nunito, sans-serif;
 }
@@ -564,4 +566,32 @@ ul {
     padding-bottom: 10px;
     padding-left: 0px;
   }
-}
+}i
+
+ *{
+  padding:0; 
+  margin: 0;
+  box-sizing: border-box;
+ }
+ .body{
+  background-color: aliceblue;
+ }
+ .picturegall{
+  width: 85vmin;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  border: 20px solid #fff;
+
+ }
+
+ .wrapper{
+  width: 100%; 
+  display: flex;
+ }
+
+ .img{
+  width: 100;
+ }
